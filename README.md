@@ -18,9 +18,9 @@ In this extended LabVIEW-DHT22 project, I’ve introduced two key enhancements: 
 
 **How These Enhancements Improve the Project:**
 
-•	Modularity: By using SubVIs, the project is broken down into manageable, reusable components, making the codebase cleaner and more organized.
+•	**Modularity:** By using SubVIs, the project is broken down into manageable, reusable components, making the codebase cleaner and more organized.
 
-•	Flexibility and Maintainability: The State Machine architecture simplifies the addition of new features and improves the program’s robustness by making it easier to handle different states and transitions.
+•	**Flexibility and Maintainability**: The State Machine architecture simplifies the addition of new features and improves the program’s robustness by making it easier to handle different states and transitions.
 
 **Hardware Setup:**
 •	The hardware setup remains unchanged from the original project, where you connect the DHT11/DHT22 sensor to the Arduino and link the Arduino to the computer via USB.
