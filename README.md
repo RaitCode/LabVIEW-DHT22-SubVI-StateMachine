@@ -6,15 +6,15 @@ In this extended LabVIEW-DHT22 project, I’ve introduced two key enhancements: 
 
 **1.	SubVIs:**
 
-o	Purpose: SubVIs make it possible to encapsulate specific blocks of code into reusable modules. This modular approach makes the main VI (Virtual Instrument) more organized and manageable.
+**o	Purpose:** SubVIs make it possible to encapsulate specific blocks of code into reusable modules. This modular approach makes the main VI (Virtual Instrument) more organized and manageable.
 
-o	Application: I’ve wrapped the DHT11 or DHT22 sensor acquisition code into a SubVI named; DHT11_Sensor. This means that instead of cluttering the main VI with detailed code, I can call this SubVI wherever the sensor data is needed, making the overall program more readable and easier to debug.
+**o	Application:** I’ve wrapped the DHT11 or DHT22 sensor acquisition code into a SubVI named; DHT11_Sensor. This means that instead of cluttering the main VI with detailed code, I can call this SubVI wherever the sensor data is needed, making the overall program more readable and easier to debug.
 
 **2.	State Machine Architecture:**
 
-o	Purpose: The State Machine is a powerful programming structure in LabVIEW that allows for more dynamic and flexible code execution. It enables a program to transition between different states based on conditions or user inputs, improving code reusability and maintainability.
+**o	Purpose:** The State Machine is a powerful programming structure in LabVIEW that allows for more dynamic and flexible code execution. It enables a program to transition between different states based on conditions or user inputs, improving code reusability and maintainability.
 
-o	Application: I’ve employed a State Machine to handle the flow of the program. The states involve: Initialize DAQ Devices, Start, DTH11, and Stop. The flexibility of the State Machine allows you to easily modify or extend the program’s functionality without rewriting large sections of code.
+**o	Application:** I’ve employed a State Machine to handle the flow of the program. The states involve: Initialize DAQ Devices, Start, DTH11, and Stop. The flexibility of the State Machine allows you to easily modify or extend the program’s functionality without rewriting large sections of code.
 
 **How These Enhancements Improve the Project:**
 
