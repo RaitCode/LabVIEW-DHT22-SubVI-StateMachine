@@ -19,6 +19,7 @@ In this extended LabVIEW-DHT22 project, I’ve introduced two key enhancements: 
 **How These Enhancements Improve the Project:**
 
 •	Modularity: By using SubVIs, the project is broken down into manageable, reusable components, making the codebase cleaner and more organized.
+
 •	Flexibility and Maintainability: The State Machine architecture simplifies the addition of new features and improves the program’s robustness by making it easier to handle different states and transitions.
 
 **Hardware Setup:**
